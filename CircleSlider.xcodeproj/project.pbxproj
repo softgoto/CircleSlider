@@ -14,6 +14,8 @@
 		033A481D1B2AED76004A1C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033A481C1B2AED76004A1C12 /* Images.xcassets */; };
 		033A48201B2AED76004A1C12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033A481E1B2AED76004A1C12 /* LaunchScreen.xib */; };
 		033A482C1B2AED76004A1C12 /* CircleSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A482B1B2AED76004A1C12 /* CircleSliderTests.m */; };
+		033A483A1B2AEDDF004A1C12 /* CircleSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A48381B2AEDDF004A1C12 /* CircleSliderBar.m */; };
+		033A483C1B2AEEB0004A1C12 /* CircleSliderBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 033A483B1B2AEEB0004A1C12 /* CircleSliderBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		033A48251B2AED76004A1C12 /* CircleSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033A482A1B2AED76004A1C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033A482B1B2AED76004A1C12 /* CircleSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleSliderTests.m; sourceTree = "<group>"; };
+		033A48371B2AEDDF004A1C12 /* CircleSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSliderBar.h; sourceTree = "<group>"; };
+		033A48381B2AEDDF004A1C12 /* CircleSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSliderBar.m; sourceTree = "<group>"; };
+		033A483B1B2AEEB0004A1C12 /* CircleSliderBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CircleSliderBar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		033A48031B2AED76004A1C12 = {
 			isa = PBXGroup;
 			children = (
+				033A48351B2AEDDF004A1C12 /* CircleSliderBar */,
 				033A480E1B2AED76004A1C12 /* CircleSlider */,
 				033A48281B2AED76004A1C12 /* CircleSliderTests */,
 				033A480D1B2AED76004A1C12 /* Products */,
@@ -117,6 +123,16 @@
 				033A482A1B2AED76004A1C12 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033A48351B2AEDDF004A1C12 /* CircleSliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				033A483B1B2AEEB0004A1C12 /* CircleSliderBar.bundle */,
+				033A48371B2AEDDF004A1C12 /* CircleSliderBar.h */,
+				033A48381B2AEDDF004A1C12 /* CircleSliderBar.m */,
+			);
+			path = CircleSliderBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033A483C1B2AEEB0004A1C12 /* CircleSliderBar.bundle in Resources */,
 				033A481B1B2AED76004A1C12 /* Main.storyboard in Resources */,
 				033A48201B2AED76004A1C12 /* LaunchScreen.xib in Resources */,
 				033A481D1B2AED76004A1C12 /* Images.xcassets in Resources */,
@@ -222,6 +239,7 @@
 				033A48181B2AED76004A1C12 /* ViewController.m in Sources */,
 				033A48151B2AED76004A1C12 /* AppDelegate.m in Sources */,
 				033A48121B2AED76004A1C12 /* main.m in Sources */,
+				033A483A1B2AEDDF004A1C12 /* CircleSliderBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
